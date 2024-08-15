@@ -2,7 +2,7 @@
 ##Objective: Find the password for the next level in a hidden file located in inhere directory
 ##Steps taken
 1. Connecting to the server
-   Command: ssh bandit2@bandit.labs.overthewire.org -p2220
+   Command: ssh bandit3@bandit.labs.overthewire.org -p2220
    loged in using the password from level 3
 2. Finding the hidden file 
    command: find inhere
