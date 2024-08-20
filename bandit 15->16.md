@@ -4,6 +4,6 @@
 1. Connecting to the server
    Command: ssh bandit15@bandit.labs.overthewire.org -p2220
    logged in using password from previous level
-3. connecting to localhost 30001
+2. connecting to localhost 30001
    command: openssl s_client -connect localhost:30001
-4. enter the password for the current level and we get the password for the next level .
+3. enter the password for the current level and we get the password for the next level .
