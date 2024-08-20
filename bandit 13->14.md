@@ -15,4 +15,4 @@
    command: chmod 700 private14.keys
 6. loggin to bandit14
    command: ssh bandit14@bandit.labs.overthewire.org -p2220 -i private14.keys
-   logged in retrived the password for the next level.
+   logged in retrived the password for the next level .
