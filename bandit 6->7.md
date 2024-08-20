@@ -3,7 +3,7 @@
 ##Steps taken
 1. Connecting to the server
    Command: ssh bandit6@bandit.labs.overthewire.org -p2220
-   loged in using the password from level 6
+   loged in using the password from previous level
 2. Finding the file 
    command: find/ -size 33c -group bandit6 -user bandit7
 3. opening the file
