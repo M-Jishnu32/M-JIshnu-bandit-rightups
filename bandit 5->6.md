@@ -3,11 +3,11 @@
 ##Steps taken
 1. Connecting to the server
    Command: ssh bandit5@bandit.labs.overthewire.org -p2220
-   loged in using the password from level 5
+   loged in using the password from previous level
 2. entering the inhere directory
    command: cd inhere
 3. enetering maybehere07 directory
-   command cd maybehere07
+   command: cd maybehere07
 4. Finding the file 
    command: ls find -type f -size 1033c -readable ! -executable
 5. opening the file
