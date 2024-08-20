@@ -3,7 +3,7 @@
 ##Steps taken
 1. Connecting to the server
    Command: ssh bandit3@bandit.labs.overthewire.org -p2220
-   loged in using the password from level 3
+   loged in using the password from previous level
 2. Finding the hidden file 
    command: find inhere
    using this command the hidden file is found
