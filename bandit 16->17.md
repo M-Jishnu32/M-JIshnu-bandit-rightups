@@ -4,12 +4,21 @@
 1. Connecting to the server
    Command: ssh bandit16@bandit.labs.overthewire.org -p2220
    logged in using password from previous level
-3. listing out the localhost
+2. listing out the localhost
    command: nmap -p 31000-32000 localhost
    we get 5 potential local host
-5. listing out the required localhost
+3. listing out the required localhost
   command: nmap -p 31046,31518,31691,31790,31960 -A localhost
   localhost 31790 is the required localhost
-6. Connecting to localhost
+4. Connecting to localhost
    command: ncat --ssl localhost 31790
-8. enter the password for the current level and we get the credentials for the next level .
+   enter the password for the current level and we get the credentials for the next level.
+5. copying the credentials to local host
+   command: cat "content " > private17.keys
+6. changing the mode of the file private17.key
+   command: chmod 700 private17.keys
+7. login to bandit17
+   command: ssh bandit17@bandit.labs.overthewire.org -p2220 -i private17.key
+8. retrieving the password
+   command: /etc/bandit_pass/bandit17
+   retrived the password for next level
