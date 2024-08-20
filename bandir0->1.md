@@ -3,7 +3,7 @@
 ##Steps taken
 1. Connecting to the server
    Command: ssh bandit1@bandit.labs.overthewire.org -p2220
-   loged in using the password from level 0 
+   loged in using the password from previous level  
 2. Finding the readme file
    command: ls
 3.opening the readme file
